@@ -2,7 +2,7 @@
 // Written by: cool-dev-guy
 // Github : https://github.com/cool-dev-guy
 // Note:This project is written as a proof of concept and as a study material,So the author is not responsible for any issues caused by this.Use this at your own risk,This Project dosent have warranty.
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 import { decodeHunter } from './hunter';
 // BLACKLISTED due to server down.
 const BLACKLISTED = ['VidSrc Hydrax','2Embed']
